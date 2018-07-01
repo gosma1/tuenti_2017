@@ -17,9 +17,9 @@ else:
     exit()
 while (counter < N):
     line = f.readline().replace('\n',' ')
-    numero = int (line)
-    resultado=0
-    resultado = math.ceil(math.log2(numero))
-    print("Case #",counter,': ',resultado, sep="")
+    number = int (line)
+    result=0
+    result = math.ceil(math.log2(number))
+    print("Case #",counter,': ',result, sep="")
     counter = counter + 1
 f.close()
